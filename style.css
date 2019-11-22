@@ -1,0 +1,86 @@
+#grid {
+	display: grid ;
+	border: 2px white solid;
+	width: 400px;
+	grid-template-rows: repeat(4, default);
+	
+}
+
+a {
+	font-family: fantasy, trattatello ;
+	color: white ;
+}
+
+
+.item1 {
+	border: 2px white solid ;
+	grid-area: header ;
+}
+
+#head-thing {
+	font-size: 60px;
+	font-family: Trattatello, fantasy; 
+	color: white; 
+	grid-gap: 10px ;
+}
+
+.grab {
+	cursor: grab;
+}
+
+body {
+	background: #555B6F;
+}
+
+img {
+	width: 250px;
+	height: 200px;
+}
+
+
+p {
+	font-size: 20px ;
+	font-family: Impact, fantasy ;
+	color: white;
+	size: 90px ;
+}
+
+
+.item2 {
+	display: grid ;
+	border: 2px white solid;
+	width: 400px;
+	grid-template-rows: repeat(4, default);
+	float: right;
+	
+}
+
+#footer {
+	width: 100%;
+	font-size: 20px;
+	display: grid;
+	grid-template: 1fr / repeat(4, 1fr);
+	border: 2px solid white ;
+}
+
+.item4 {
+	display: grid ;
+	border: 2px white solid;
+	width: 400px;
+	grid-template-rows: repeat(4, default);
+	float: center ;
+}
+
+.item3 {
+	display: grid ;
+	border: 2px white solid;
+	width: 400px;
+	grid-template-rows: repeat(4, default);
+	float: right ;
+}
+	
+
+
+
+
+	
